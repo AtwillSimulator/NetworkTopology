@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(237, 240, 194);
+}
+
+h1 {
+    color: rgba(15, 71, 97);
+}
+
+h2 {
+    color: rgba(136, 61, 122)
+}
+
+p {
+    color: rgba(0, 0, 0);
+    max-width: 650px;
+    line-height: 1.5;
+}
+
+.fixed-top-right { 
+    position: fixed; 
+    right: 16px;   /* distance from right edge */ 
+    top: 16px;  /* distance from bottom edge */ 
+    z-index: 1000; /* optional, keep on top */ 
+} 
+
+#BibliographyMenu {
+    position: fixed;
+    top: 60px;
+    right: 16px;
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 1001;
+    width: 250px;
+}
